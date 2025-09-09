@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="45" height="51" tilewidth="32" tileheight="32" infinite="0" nextlayerid="35" nextobjectid="171">
+ <tileset firstgid="1" source="vcf_custom_tileset.tsx"/>
+ <layer id="4" name="Floor" width="45" height="51">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <imagelayer id="2" name="Image Layer 1">
+  <image source="vcfmw20_floorplan_A_tilemap_1632.png"/>
+ </imagelayer>
+ <layer id="1" name="TableBases" width="45" height="51" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,2147483685,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,
+0,0,0,37,39,39,39,39,39,39,39,39,39,39,39,39,39,39,2147483685,0,0,0,0,0,0,0,37,39,39,39,39,39,39,39,39,39,39,39,39,39,39,2147483685,0,0,20,
+0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,37,39,39,2147483685,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,20,
+0,0,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483681,0,0,20,0,0,20,0,20,0,0,0,37,39,39,39,39,39,39,2147483685,0,0,0,20,0,0,20,
+20,0,0,34,39,39,39,39,39,39,39,39,39,39,39,39,39,39,35,0,0,20,0,0,20,0,33,0,0,0,2147483681,0,0,0,0,0,0,33,0,0,0,2147483681,0,0,20,
+20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,20,0,34,39,39,39,35,0,0,0,0,0,0,34,39,39,39,35,0,0,20,
+20,0,0,0,37,39,39,39,2147483685,0,0,0,0,0,37,39,39,39,2147483685,0,0,20,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,
+20,0,0,0,20,0,0,0,33,0,0,0,0,0,2147483681,0,0,0,20,0,0,20,0,0,20,0,37,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,2147483685,0,20,
+20,0,0,0,20,0,0,0,34,39,39,39,39,39,35,0,0,0,20,0,0,20,0,0,20,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,20,
+20,0,0,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483681,0,0,20,0,0,20,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483681,0,20,
+20,0,0,0,34,39,39,39,39,39,39,39,39,39,39,39,39,39,35,0,0,20,0,0,20,0,34,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,35,0,20,
+53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,20,0,37,39,39,39,39,39,39,39,39,39,39,39,39,39,39,2147483685,0,0,20,
+0,20,0,37,39,39,39,39,39,39,39,39,39,39,39,39,39,39,2147483685,0,0,20,0,0,20,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,20,
+0,20,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483681,0,0,33,0,0,2147483681,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,20,
+0,20,0,34,39,39,39,39,39,39,39,39,39,39,39,39,39,39,35,0,0,34,39,39,35,0,33,0,0,0,49,39,39,39,39,39,39,2147483697,0,0,0,2147483681,0,0,20,
+0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,39,39,39,35,0,0,0,0,0,0,34,39,39,39,35,0,0,20,
+0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,
+0,20,0,37,39,39,39,2147483697,50,50,50,50,50,49,39,39,39,2147483685,0,0,37,39,39,39,2147483685,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,
+0,20,0,20,0,0,0,34,39,39,39,39,39,35,0,0,0,20,0,0,20,0,0,0,20,0,37,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,2147483685,0,20,
+0,20,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,20,0,0,0,20,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,20,
+0,20,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483681,0,0,33,0,0,0,20,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483681,0,20,
+0,20,0,34,39,39,39,39,39,39,39,39,39,39,39,39,39,35,0,0,34,2147483685,0,0,20,0,34,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,35,0,20,
+0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,
+0,20,0,37,39,39,39,39,39,39,39,39,39,39,39,39,39,39,2147483685,0,0,20,0,0,20,0,37,39,39,39,39,39,39,39,39,39,39,39,39,39,39,2147483685,0,0,20,
+0,20,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,20,0,0,20,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,20,
+0,20,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483681,0,0,20,0,0,20,0,20,0,0,0,37,39,39,39,39,39,39,2147483685,0,0,0,20,0,0,20,
+0,20,0,34,39,39,39,39,39,39,39,39,39,39,39,39,39,39,35,0,0,19,0,0,20,0,33,0,0,0,19,0,0,0,0,0,0,33,0,0,0,2147483681,0,0,20,
+0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37,35,0,0,20,0,34,39,39,39,35,0,0,0,0,0,0,34,39,39,39,35,0,0,20,
+0,20,0,37,39,39,39,2147483685,0,0,0,0,0,37,39,39,39,2147483685,0,0,20,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,
+0,20,0,20,0,0,0,2147483667,0,0,0,0,0,19,0,0,0,20,0,0,20,0,0,0,20,0,37,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,2147483685,0,20,
+0,20,0,20,0,0,0,34,39,39,39,39,39,35,0,0,0,20,0,0,2147483667,0,0,0,19,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,20,
+0,20,0,2147483667,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483681,0,0,34,39,39,39,35,0,2147483667,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,20,
+0,20,0,34,39,39,39,39,39,39,39,39,39,39,39,39,39,35,0,0,0,0,0,0,0,0,34,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,35,0,20,
+0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37,39,39,39,2147483685,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,
+0,20,0,0,0,0,0,0,0,0,0,0,0,0,37,39,39,2147483685,0,0,20,0,0,0,20,0,37,39,39,39,39,39,39,39,39,39,39,39,39,39,39,2147483685,0,0,20,
+0,36,0,37,39,39,39,2147483685,0,37,39,39,2147483685,0,20,0,0,20,0,0,20,0,0,0,20,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,20,
+0,0,0,20,0,0,0,20,0,20,0,0,20,0,20,0,0,53,0,0,20,0,0,0,20,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,20,
+0,0,0,20,0,0,0,20,0,33,0,0,19,0,2147483667,0,0,0,0,0,20,0,0,0,20,0,2147483667,0,0,0,49,39,39,39,39,39,39,2147483697,0,0,0,19,0,0,20,
+0,0,0,20,0,0,0,20,0,34,39,39,35,0,34,39,39,35,0,0,20,0,0,0,20,0,34,39,39,39,35,0,0,0,0,0,0,34,39,39,39,35,0,0,20,
+0,0,0,20,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,
+0,0,0,20,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,20,0,37,35,0,34,39,39,39,35,0,34,39,39,39,35,0,0,0,0,20,
+0,0,0,20,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,2147483667,0,0,0,19,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,20,
+0,0,0,2147483667,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,34,39,39,39,35,0,2147483667,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,20,
+0,0,0,34,39,39,39,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,39,39,39,39,39,39,39,39,39,39,39,39,39,39,35,0,0,20,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,34,39,35,0,0,0,0,0,0,0,34,39,35,0,0,0,0,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Player" visible="0">
+  <object id="1" name="player" x="32" y="1536" width="1372" height="64">
+   <properties>
+    <property name="group" value="Player"/>
+    <property name="type" value="player"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="W" visible="0">
+  <object id="25" name="rect" x="317.5" y="1273" width="68" height="71">
+   <properties>
+    <property name="group" value="W"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="27" name="npc 4" x="321" y="1313">
+   <properties>
+    <property name="group" value="W"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="28" name="npc 3" x="364" y="1342.5">
+   <properties>
+    <property name="group" value="W"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="29" name="npc 2" x="379" y="1302">
+   <properties>
+    <property name="group" value="W"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="30" name="npc 1" x="331" y="1278.5">
+   <properties>
+    <property name="group" value="W"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="12" name="V" visible="0">
+  <object id="31" name="rect" x="476" y="1241" width="70" height="103">
+   <properties>
+    <property name="group" value="V"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="34" name="npc 3" x="490" y="1278">
+   <properties>
+    <property name="group" value="V"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="35" name="npc 2" x="486" y="1342">
+   <properties>
+    <property name="group" value="V"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="36" name="npc 1" x="528" y="1251">
+   <properties>
+    <property name="group" value="V"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="U" visible="0">
+  <object id="37" name="rect" x="862.546" y="1434" width="449.907" height="69">
+   <properties>
+    <property name="group" value="U"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="38" name="npc 5" x="1236.79" y="1500.76">
+   <properties>
+    <property name="group" value="U"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="39" name="npc 4" x="1062.79" y="1501.43">
+   <properties>
+    <property name="group" value="U"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="40" name="npc 3" x="1213.45" y="1440.76">
+   <properties>
+    <property name="group" value="U"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="41" name="npc 2" x="1044.12" y="1442.76">
+   <properties>
+    <property name="group" value="U"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="42" name="npc 1" x="864.787" y="1472.09">
+   <properties>
+    <property name="group" value="U"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="14" name="T" visible="0">
+  <object id="43" name="rect" x="863" y="1243" width="449" height="100">
+   <properties>
+    <property name="group" value="T"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="44" name="npc 5" x="1105" y="1256">
+   <properties>
+    <property name="group" value="T"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="45" name="npc 4" x="1285" y="1253">
+   <properties>
+    <property name="group" value="T"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="46" name="npc 3" x="935" y="1250">
+   <properties>
+    <property name="group" value="T"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="47" name="npc 2" x="1288" y="1340">
+   <properties>
+    <property name="group" value="T"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="48" name="npc 1" x="874" y="1341">
+   <properties>
+    <property name="group" value="T"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="15" name="S" visible="0">
+  <object id="49" name="rect" x="863.667" y="1082.33" width="481.667" height="69">
+   <properties>
+    <property name="group" value="S"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="50" name="npc 5" x="1119.67" y="1131.33">
+   <properties>
+    <property name="group" value="S"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="51" name="npc 4" x="1119.67" y="1131.33">
+   <properties>
+    <property name="group" value="S"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="52" name="npc 3" x="1119.67" y="1131.33">
+   <properties>
+    <property name="group" value="S"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="53" name="npc 2" x="1119.67" y="1131.33">
+   <properties>
+    <property name="group" value="S"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="54" name="npc 1" x="1119.67" y="1131.33">
+   <properties>
+    <property name="group" value="S"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="16" name="R" visible="0">
+  <object id="55" name="rect" x="863.667" y="890.333" width="447" height="101">
+   <properties>
+    <property name="group" value="R"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="56" name="npc 5" x="1187.67" y="907.333">
+   <properties>
+    <property name="group" value="R"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="57" name="npc 4" x="1307.67" y="936.667">
+   <properties>
+    <property name="group" value="R"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="58" name="npc 3" x="923.667" y="908.667">
+   <properties>
+    <property name="group" value="R"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="59" name="npc 2" x="1262.33" y="987.333">
+   <properties>
+    <property name="group" value="R"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="60" name="npc 1" x="885" y="991.333">
+   <properties>
+    <property name="group" value="R"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="18" name="P" visible="0">
+  <object id="67" name="rect" x="858.869" y="726.036" width="485.929" height="74.9286">
+   <properties>
+    <property name="group" value="P"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="68" name="npc 5" x="1218.68" y="796.869">
+   <properties>
+    <property name="group" value="P"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="69" name="npc 4" x="1276.01" y="744.869">
+   <properties>
+    <property name="group" value="P"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="70" name="npc 3" x="1022.68" y="798.202">
+   <properties>
+    <property name="group" value="P"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="71" name="npc 2" x="1001.35" y="747.536">
+   <properties>
+    <property name="group" value="P"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="72" name="npc 1" x="885.345" y="775.536">
+   <properties>
+    <property name="group" value="P"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="20" name="N" visible="0">
+  <object id="79" name="rect" x="863.667" y="505" width="448.333" height="99.6667">
+   <properties>
+    <property name="group" value="N"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="80" name="npc 5" x="1109" y="527.333">
+   <properties>
+    <property name="group" value="N"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="81" name="npc 4" x="1262.33" y="599.333">
+   <properties>
+    <property name="group" value="N"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="82" name="npc 3" x="931.667" y="595.333">
+   <properties>
+    <property name="group" value="N"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="83" name="npc 2" x="1238.33" y="523.333">
+   <properties>
+    <property name="group" value="N"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="84" name="npc 1" x="889" y="526">
+   <properties>
+    <property name="group" value="N"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="21" name="M" visible="0">
+  <object id="85" name="rect" x="863.667" y="345" width="479" height="70.3333">
+   <properties>
+    <property name="group" value="M"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="86" name="npc 5" x="1010.33" y="415.333">
+   <properties>
+    <property name="group" value="M"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="87" name="npc 4" x="1137" y="368.667">
+   <properties>
+    <property name="group" value="M"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="88" name="npc 3" x="1281" y="363.333">
+   <properties>
+    <property name="group" value="M"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="89" name="npc 2" x="1214.33" y="414">
+   <properties>
+    <property name="group" value="M"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="90" name="npc 1" x="886.333" y="366">
+   <properties>
+    <property name="group" value="M"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="22" name="L" visible="0">
+  <object id="91" name="rect" x="863.667" y="150.333" width="447" height="106.333">
+   <properties>
+    <property name="group" value="L"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="92" name="npc 5" x="1125" y="174">
+   <properties>
+    <property name="group" value="L"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="93" name="npc 4" x="1057" y="190">
+   <properties>
+    <property name="group" value="L"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="94" name="npc 3" x="1237" y="191.333">
+   <properties>
+    <property name="group" value="L"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="95" name="npc 2" x="1294.33" y="250">
+   <properties>
+    <property name="group" value="L"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="96" name="npc 1" x="894.333" y="240.667">
+   <properties>
+    <property name="group" value="L"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="23" name="K" visible="0">
+  <object id="97" name="rect" x="666.333" y="1209" width="104.333" height="263.667">
+   <properties>
+    <property name="group" value="K"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="98" name="npc 5" x="747.667" y="1398">
+   <properties>
+    <property name="group" value="K"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="99" name="npc 4" x="699.667" y="1347.33">
+   <properties>
+    <property name="group" value="K"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="100" name="npc 3" x="745" y="1312.67">
+   <properties>
+    <property name="group" value="K"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="101" name="npc 2" x="690.333" y="1471.33">
+   <properties>
+    <property name="group" value="K"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="102" name="npc 1" x="727.667" y="1226">
+   <properties>
+    <property name="group" value="K"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="24" name="J" visible="0">
+  <object id="103" name="rect" x="666.333" y="695.667" width="104.333" height="415.667">
+   <properties>
+    <property name="group" value="J"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="104" name="npc 5" x="725" y="923.333">
+   <properties>
+    <property name="group" value="J"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="105" name="npc 4" x="746.333" y="1000.67">
+   <properties>
+    <property name="group" value="J"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="106" name="npc 3" x="750.333" y="818">
+   <properties>
+    <property name="group" value="J"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="107" name="npc 2" x="694.333" y="1084.67">
+   <properties>
+    <property name="group" value="J"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="108" name="npc 1" x="685" y="719.333">
+   <properties>
+    <property name="group" value="J"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="25" name="I" visible="0">
+  <object id="109" name="rect" x="701.937" y="182.544" width="68.762" height="388.246">
+   <properties>
+    <property name="group" value="I"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="110" name="npc 5" x="719.296" y="375.747">
+   <properties>
+    <property name="group" value="I"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="111" name="npc 4" x="751.296" y="485.08">
+   <properties>
+    <property name="group" value="I"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="112" name="npc 3" x="748.629" y="290.413">
+   <properties>
+    <property name="group" value="I"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="113" name="npc 2" x="719.296" y="566.413">
+   <properties>
+    <property name="group" value="I"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="114" name="npc 1" x="728.629" y="205.08">
+   <properties>
+    <property name="group" value="I"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="26" name="H" visible="0">
+  <object id="115" name="rect" x="128" y="1275" width="99" height="221">
+   <properties>
+    <property name="group" value="H"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="116" name="npc 5" x="154" y="1472">
+   <properties>
+    <property name="group" value="H"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="117" name="npc 4" x="204" y="1488">
+   <properties>
+    <property name="group" value="H"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="118" name="npc 3" x="158" y="1408">
+   <properties>
+    <property name="group" value="H"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="119" name="npc 2" x="205" y="1374">
+   <properties>
+    <property name="group" value="H"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="120" name="npc 1" x="148" y="1321">
+   <properties>
+    <property name="group" value="H"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="27" name="G" visible="0">
+  <object id="121" name="rect" x="122.333" y="1047.67" width="423" height="106.333">
+   <properties>
+    <property name="group" value="G"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="122" name="npc 5" x="351.667" y="1138">
+   <properties>
+    <property name="group" value="G"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="123" name="npc 4" x="199.667" y="1139.33">
+   <properties>
+    <property name="group" value="G"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="124" name="npc 3" x="475.667" y="1134">
+   <properties>
+    <property name="group" value="G"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="125" name="npc 2" x="518.333" y="1100.67">
+   <properties>
+    <property name="group" value="G"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="126" name="npc 1" x="161" y="1095.33">
+   <properties>
+    <property name="group" value="G"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="28" name="F" visible="0">
+  <object id="127" name="rect" x="127.667" y="893" width="443" height="66.3333">
+   <properties>
+    <property name="group" value="F"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="128" name="npc 5" x="431.667" y="908.667">
+   <properties>
+    <property name="group" value="F"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="129" name="npc 4" x="490.333" y="950">
+   <properties>
+    <property name="group" value="F"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="130" name="npc 3" x="254.333" y="906">
+   <properties>
+    <property name="group" value="F"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="131" name="npc 2" x="541" y="943.333">
+   <properties>
+    <property name="group" value="F"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="132" name="npc 1" x="182.333" y="943.333">
+   <properties>
+    <property name="group" value="F"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="29" name="E" visible="0">
+  <object id="133" name="rect" x="109" y="725" width="439" height="61">
+   <properties>
+    <property name="group" value="E"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="134" name="npc 5" x="365" y="774">
+   <properties>
+    <property name="group" value="E"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="135" name="npc 4" x="365" y="774">
+   <properties>
+    <property name="group" value="E"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="136" name="npc 3" x="365" y="774">
+   <properties>
+    <property name="group" value="E"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="137" name="npc 2" x="365" y="774">
+   <properties>
+    <property name="group" value="E"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="138" name="npc 1" x="365" y="774">
+   <properties>
+    <property name="group" value="E"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="30" name="D" visible="0">
+  <object id="139" name="rect" x="149" y="525" width="439" height="61">
+   <properties>
+    <property name="group" value="D"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="140" name="npc 5" x="405" y="574">
+   <properties>
+    <property name="group" value="D"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="141" name="npc 4" x="405" y="574">
+   <properties>
+    <property name="group" value="D"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="142" name="npc 3" x="405" y="574">
+   <properties>
+    <property name="group" value="D"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="143" name="npc 2" x="405" y="574">
+   <properties>
+    <property name="group" value="D"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="144" name="npc 1" x="405" y="574">
+   <properties>
+    <property name="group" value="D"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="31" name="C" visible="0">
+  <object id="145" name="rect" x="137" y="353" width="439" height="61">
+   <properties>
+    <property name="group" value="C"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="146" name="npc 5" x="393" y="402">
+   <properties>
+    <property name="group" value="C"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="147" name="npc 4" x="393" y="402">
+   <properties>
+    <property name="group" value="C"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="148" name="npc 3" x="393" y="402">
+   <properties>
+    <property name="group" value="C"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="149" name="npc 2" x="393" y="402">
+   <properties>
+    <property name="group" value="C"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="150" name="npc 1" x="393" y="402">
+   <properties>
+    <property name="group" value="C"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="32" name="B" visible="0">
+  <object id="151" name="rect" x="129" y="157" width="439" height="61">
+   <properties>
+    <property name="group" value="B"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="152" name="npc 5" x="385" y="206">
+   <properties>
+    <property name="group" value="B"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="153" name="npc 4" x="385" y="206">
+   <properties>
+    <property name="group" value="B"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="154" name="npc 3" x="385" y="206">
+   <properties>
+    <property name="group" value="B"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="155" name="npc 2" x="385" y="206">
+   <properties>
+    <property name="group" value="B"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="156" name="npc 1" x="385" y="206">
+   <properties>
+    <property name="group" value="B"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="33" name="A" visible="0">
+  <object id="157" name="rect" x="1.18182" y="496.515" width="28.6667" height="782.121">
+   <properties>
+    <property name="group" value="A"/>
+    <property name="type" value="npc"/>
+   </properties>
+  </object>
+  <object id="158" name="npc 5" x="17.8485" y="561.515">
+   <properties>
+    <property name="group" value="A"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="159" name="npc 4" x="17.8485" y="779.515">
+   <properties>
+    <property name="group" value="A"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="160" name="npc 3" x="16.8485" y="910.515">
+   <properties>
+    <property name="group" value="A"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="161" name="npc 2" x="18.8485" y="1111.52">
+   <properties>
+    <property name="group" value="A"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="162" name="npc 1" x="17.8485" y="1260.52">
+   <properties>
+    <property name="group" value="A"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="3" name="TableTops" width="45" height="51">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,2147483666,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,18,50,50,50,50,50,50,50,50,50,50,50,50,50,50,2147483666,0,0,0,0,0,0,0,18,50,50,50,50,50,50,50,50,50,50,50,50,50,50,2147483666,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,50,50,2147483666,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,50,50,50,50,50,50,2147483666,0,0,0,0,0,0,0,
+4,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,50,50,0,0,0,0,0,0,0,0,50,50,50,0,0,0,0,
+0,0,0,0,18,50,50,50,2147483666,0,0,0,0,0,18,50,50,50,2147483666,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,2147483666,0,0,
+0,0,0,0,0,0,0,0,0,50,50,50,50,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,0,0,0,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,50,50,50,50,50,50,50,50,50,50,50,50,50,50,2147483666,0,0,0,
+0,4,0,18,50,50,50,50,50,50,50,50,50,50,50,50,50,50,2147483666,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,0,50,50,0,0,0,0,0,0,18,50,50,50,50,50,50,2147483666,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,50,50,0,0,0,0,0,0,0,0,50,50,50,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,18,50,50,50,2147483666,0,0,0,0,0,18,50,50,50,2147483666,0,0,18,50,50,50,2147483666,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,2147483666,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,0,2147483666,0,0,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,18,50,50,50,50,50,50,50,50,50,50,50,50,50,50,2147483666,0,0,0,0,0,0,0,18,50,50,50,50,50,50,50,50,50,50,50,50,50,50,2147483666,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,50,50,50,50,50,50,2147483666,0,0,0,0,0,0,0,
+0,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,50,50,50,0,0,0,0,0,0,0,0,50,50,50,0,0,0,0,
+0,0,0,18,50,50,50,2147483666,0,0,0,0,0,18,50,50,50,2147483666,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,2147483666,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,50,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,0,0,0,0,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,50,50,50,2147483666,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,50,50,2147483666,0,0,0,0,0,0,0,0,18,50,50,50,50,50,50,50,50,50,50,50,50,50,50,2147483666,0,0,0,
+0,0,0,18,50,50,50,2147483666,0,18,50,50,2147483666,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,50,50,50,50,50,50,2147483666,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,50,50,0,0,0,50,50,2147483666,0,0,0,0,0,0,0,0,0,50,50,50,0,0,0,0,0,0,0,0,50,50,50,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,2147483666,0,18,50,50,50,2147483666,0,18,50,50,50,2147483666,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,50,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,50,50,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,18,50,2147483666,0,0,0,0,0,0,0,18,50,2147483666,0,0,0,0,18,2147483666,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
