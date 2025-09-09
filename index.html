@@ -11,57 +11,103 @@
   <script>
     const config = {
       type: Phaser.AUTO,
-      width: 960, // Adjust to match your TMX map width (e.g., 30x34 = 960x1088px)
-      height: 1088, // Adjust to match your TMX map height
+      width: 1440,
+      height: 1632,
       physics: { default: 'arcade', arcade: { gravity: { y: 0 } } },
       scene: { preload, create, update }
     };
 
     const game = new Phaser.Game(config);
 
-    let player, cursors, map;
+    let player, cursors, map, npcs = {};
 
     function preload() {
-      // Load Tiled map
-      this.load.tilemapTiledJSON('map', 'assets/map.tmx');
-
-      // Load consolidated tileset image
+      console.log("Preloading assets...");
+      this.load.tilemapTiledJSON('map', 'assets/map.json');
+      this.load.on('filecomplete-tilemapJSON-map', () => console.log("Map JSON loaded"));
       this.load.image('vcf_custom_tileset', 'assets/vcf_custom_tileset.png');
-
-      // Load player spritesheet
-      this.load.spritesheet('player', 'assets/player.png', { frameWidth: 32, frameHeight: 32 });
+      this.load.on('filecomplete-image-vcf_custom_tileset', () => console.log("Tileset image loaded"));
+      this.load.spritesheet('player', 'assets/player.png', { frameWidth: 32, frameHeight: 48 });
+      this.load.on('filecomplete-spritesheet-player', () => console.log("Player spritesheet loaded"));
     }
 
     function create() {
-      // Load and create the map
+      console.log("Creating scene...");
       map = this.make.tilemap({ key: 'map' });
-      const tileset = map.addTilesetImage('vcf_custom_tileset', 'vcf_custom_tileset'); // Match Tiled name
-      const layer = map.createLayer('floor', tileset, 0, 0); // Match layer name
-      layer.setCollisionByExclusion([1]); // Adjust based on your tile IDs
+      console.log("Raw map layers:", map.layers); // Debug all layers
+      const tileset = map.addTilesetImage('vcf_custom_tileset', 'vcf_custom_tileset');
+      if (!tileset) console.error("Tileset not loaded!");
 
-      // Set camera bounds to map size
+      const floorLayer = map.createLayer('Floor', tileset, 0, 0);
+      const tableBasesLayer = map.createLayer('TableBases', tileset, 0, 0);
+      const tableTopsLayer = map.createLayer('TableTops', tileset, 0, 0);
+      if (!floorLayer) console.error("Floor layer not created!");
+      if (!tableBasesLayer) console.error("TableBases layer not created!");
+      if (!tableTopsLayer) console.error("TableTops layer not created!");
+      console.log("Layers created:", { floor: floorLayer, tableBases: tableBasesLayer, tableTops: tableTopsLayer });
+
+      floorLayer.setAlpha(0.5);
+      tableBasesLayer.setAlpha(0.5);
+      tableTopsLayer.setAlpha(0.5);
+
+      floorLayer.setCollisionByExclusion([-1]);
+      tableBasesLayer.setCollisionByExclusion([-1]);
+      tableTopsLayer.setCollisionByExclusion([-1]);
+
       this.cameras.main.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
+      console.log("Camera bounds set:", map.widthInPixels, map.heightInPixels);
 
-      // Get player spawning rectangle from Tiled object layer
-      const playerRect = map.getObjectLayer('player')?.objects.find(obj => obj.type === 'player');
+      // Debug object layers (filter layers of type "objectgroup")
+      const objectLayers = map.layers.filter(layer => layer.type === 'objectgroup');
+      console.log("Available object layers:", objectLayers.map(layer => ({ name: layer.name, objects: layer.objects })));
+
+      // Find player rectangle using "group" property
+      const playerLayer = objectLayers.find(layer => layer.name === 'Player');
+      let playerRect = null;
+      if (playerLayer) {
+        playerRect = playerLayer.objects.find(obj => 
+          obj.properties && obj.properties.find(p => p.name === 'group' && p.value === 'Player')
+        );
+      }
       if (playerRect) {
-        // Calculate random position within the rectangle
+        console.log("Player rect found:", playerRect.x, playerRect.y, playerRect.width, playerRect.height);
         const minX = playerRect.x;
         const maxX = playerRect.x + playerRect.width;
-        const minY = playerRect.y - playerRect.height; // Adjust for Phaser's top-left origin
+        const minY = playerRect.y - playerRect.height;
         const maxY = playerRect.y;
         const spawnX = Phaser.Math.Between(minX, maxX);
         const spawnY = Phaser.Math.Between(minY, maxY);
-
-        // Add player at random position within rectangle
-        player = this.physics.add.sprite(spawnX, spawnY - 16, 'player').setScale(1); // -16 for center adjustment
+        console.log("Spawning player at:", spawnX, spawnY);
+        player = this.physics.add.sprite(spawnX, spawnY - 24, 'player').setScale(1);
       } else {
-        // Fallback position if no rectangle found
-        player = this.physics.add.sprite(400, 500 - 16, 'player').setScale(1);
+        console.warn("No player rect found, using fallback position");
+        player = this.physics.add.sprite(400, 500 - 24, 'player').setScale(1);
       }
-      this.physics.add.collider(player, layer);
 
-      // Define player animations (assuming 4 directions with 4 frames each)
+      // Find and spawn NPCs using "group" property
+      objectLayers.forEach(layer => {
+        if (layer.name !== 'Player') { // Skip Player layer
+          const npcGroup = layer.objects.filter(obj => 
+            obj.properties && obj.properties.find(p => p.name === 'group' && p.value === layer.name)
+          );
+          if (npcGroup.length > 0) {
+            console.log(`Found ${npcGroup.length} NPCs in group ${layer.name}:`, npcGroup);
+            npcGroup.forEach(npc => {
+              const npcSprite = this.physics.add.sprite(npc.x, npc.y - 24, 'player').setScale(1); // Placeholder sprite
+              if (!npcs[layer.name]) npcs[layer.name] = [];
+              npcs[layer.name].push(npcSprite);
+              this.physics.add.collider(npcSprite, floorLayer);
+              this.physics.add.collider(npcSprite, tableBasesLayer);
+              this.physics.add.collider(npcSprite, tableTopsLayer);
+            });
+          }
+        }
+      });
+
+      this.physics.add.collider(player, floorLayer);
+      this.physics.add.collider(player, tableBasesLayer);
+      this.physics.add.collider(player, tableTopsLayer);
+
       this.anims.create({
         key: 'walk_down',
         frames: this.anims.generateFrameNumbers('player', { start: 0, end: 3 }),
@@ -87,31 +133,38 @@
         repeat: -1
       });
 
-      // Follow player with camera
-      this.cameras.main.startFollow(player, true);
+      // Set initial facing to up
+      player.setFrame(4); // First frame of walk_up
 
-      // Keyboard input
+      this.cameras.main.startFollow(player, true);
       cursors = this.input.keyboard.createCursorKeys();
     }
 
     function update() {
       player.setVelocity(0);
-      if (cursors.left.isDown) {
-        player.setVelocityX(-160);
-        player.anims.play('walk_left', true);
+      if (cursors.down.isDown) {
+        player.setVelocityY(160);
+        player.anims.play('walk_down', true);
       } else if (cursors.right.isDown) {
         player.setVelocityX(160);
         player.anims.play('walk_right', true);
+      } else if (cursors.left.isDown) {
+        player.setVelocityX(-160);
+        player.anims.play('walk_left', true);
       } else if (cursors.up.isDown) {
         player.setVelocityY(-160);
         player.anims.play('walk_up', true);
-      } else if (cursors.down.isDown) {
-        player.setVelocityY(160);
-        player.anims.play('walk_down', true);
       } else {
         player.anims.stop();
-        player.setFrame(0); // Default to down frame 0
+        player.setFrame(4); // Idle facing up
       }
+
+      // Optional: Update NPC animations (placeholder logic)
+      Object.values(npcs).forEach(group => {
+        group.forEach(npc => {
+          npc.setVelocity(0);
+        });
+      });
     }
   </script>
 </body>
