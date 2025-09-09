@@ -1,0 +1,681 @@
+[
+  {
+    "booth": "M",
+    "vendorName": "2TailedFox",
+    "description": "A bit of everything. Commodore machines. Atari machines. IBM compatible machines and accessories. A few games pc and console. Etc.",
+    "originalTable": "M09/M10",
+    "sampleItems": ["Commodore Machine", "Atari Machine", "IBM Accessory"]
+  },
+  {
+    "booth": "P",
+    "vendorName": "8-Bit Classics",
+    "description": "8-Bit Classics has been selling to and supporting the retro computer scene since 1999!",
+    "originalTable": "P01/P22",
+    "sampleItems": ["Retro Computer Part", "8-Bit Accessory"]
+  },
+  {
+    "booth": "I",
+    "vendorName": "8bitdevices",
+    "description": "Modern devices Apple, Atari, TRS-80, C-64, and other various vintage computers. Live HAM radio packet communications demo using 80's vintage hardware.",
+    "originalTable": "I15/I16/I17/I18",
+    "sampleItems": ["Apple Modern Device", "Atari Packet Radio", "TRS-80 Vintage"]
+  },
+  {
+    "booth": "B",
+    "vendorName": "Aaron A. Collins, N9OZB",
+    "description": "Misc 70-90's audio visual stuff, misc test equipment, vintage computers.",
+    "originalTable": "B03/B04/B05",
+    "sampleItems": ["Audio Visual Item", "Test Equipment", "Vintage Computer"]
+  },
+  {
+    "booth": "C",
+    "vendorName": "Aaron Polivka",
+    "description": "Here's your chance to see a fully working IBM PS/2 microchannel based token ring network running operating systems such as Banyan Vines, OS/2 Warp Server, LAN/DP and Novell Netware. We can demonstrate how diehard IBMers of the 80s and 90s used IBM's proprietary systems to network their offices.",
+    "originalTable": "C18/C19",
+    "sampleItems": ["IBM PS/2 Network", "OS/2 Warp Server", "Novell Netware"]
+  },
+  {
+    "booth": "L",
+    "vendorName": "Action Retro",
+    "description": "Various strange and unusual computers as seen on the Action Retro YouTube channel. Expect frightfully upgraded Macintoshes, and perhaps something running the Haiku OS!",
+    "originalTable": "L06",
+    "sampleItems": ["Upgraded Macintosh", "Haiku OS Machine"]
+  },
+  {
+    "booth": "L",
+    "vendorName": "Adrian Black / Adrian's Digital Basement",
+    "description": "I'll bring myself, Rammy and a few fun machines that have been featured on the channel.",
+    "originalTable": "L01",
+    "sampleItems": ["Featured Machine", "Repair Demo"]
+  },
+  {
+    "booth": "T",
+    "vendorName": "Adwater and Stir",
+    "description": "We create kits to build replicas of historic computers, including the Altar 8800 and Kenbak-1. Also see a demonstration of creating and loading Altair BASIC 1.0 on paper tape, celebrating its 50th anniversary.",
+    "originalTable": "T18/T19",
+    "sampleItems": ["Altair 8800 Kit", "Kenbak-1 Replica", "Altair BASIC Tape"]
+  },
+  {
+    "booth": "M",
+    "vendorName": "Allan DeYong",
+    "description": "Nintendo 64 with 4 controllers, a library of games and a period-correct TV will provide you and up to 3 of your friends with as much turn-of-the-millennium gaming as you care to enjoy!",
+    "originalTable": "M05",
+    "sampleItems": ["Nintendo 64", "N64 Games"]
+  },
+  {
+    "booth": "T",
+    "vendorName": "AmericanRetro.Shop",
+    "description": "Retro Chip Tester Pro, The MechBoard64, The MechBoardZX, Commodore & ZX Spectrum Products.",
+    "originalTable": "T01/T24",
+    "sampleItems": ["Retro Chip Tester Pro", "MechBoard64", "MechBoardZX"]
+  },
+  {
+    "booth": "U",
+    "vendorName": "Amiga of Rochester",
+    "description": "Amiga and Macintosh Upgrades. On site soldering services",
+    "originalTable": "U03/U04",
+    "sampleItems": ["Amiga Upgrade", "Macintosh Upgrade"]
+  },
+  {
+    "booth": "J",
+    "vendorName": "Analytics Lounge, NFP",
+    "description": "Born in 1984 and restored slowly over many years this Amray Scanning Electron Microscope is a delightful mix of embedded x86 processors and physics.",
+    "originalTable": "J11/J12",
+    "sampleItems": ["Electron Microscope"]
+  },
+  {
+    "booth": "T",
+    "vendorName": "Andy Geppert",
+    "description": "Check-out a hands-on exhibit celebrating 50 years of the 6502 with 6502-controlled Core Memory, plasma Neon Pixels, and a Core64 configured as a MIDI grid controller!",
+    "originalTable": "T07",
+    "sampleItems": ["Core Memory", "Neon Pixels", "Core64 MIDI Controller"]
+  },
+  {
+    "booth": "E",
+    "vendorName": "Anne Barela",
+    "description": "Showing and selling early PCs and parts",
+    "originalTable": "E15",
+    "sampleItems": ["Early PC", "IBM PS/2", "Compaq"]
+  },
+  {
+    "booth": "U",
+    "vendorName": "ARCI",
+    "description": "ARCI",
+    "originalTable": "U14/U15",
+    "sampleItems": ["Antique Radio"]
+  },
+  {
+    "booth": "N",
+    "vendorName": "Atari BBS Gurus",
+    "description": "Retro and modern Atari BBSing as well as some Atari rare and unique items like a Super STacy, Vampire V4 running an Atari OS and others all with interactive displays.",
+    "originalTable": "N08/N09/N10",
+    "sampleItems": ["Super STacy", "Vampire V4", "Atari BBS"]
+  },
+  {
+    "booth": "N",
+    "vendorName": "Atari Guy",
+    "description": "Vintage Atari hardware and software for sale",
+    "originalTable": "N03/N04",
+    "sampleItems": ["Atari Hardware", "Atari Software"]
+  },
+  {
+    "booth": "E",
+    "vendorName": "Auramarket IN",
+    "description": "Offering quality goods from Japan (vintage Japanese console, games and some other electronics - including special editions) and accesories produced only in japan such as keychains, tv tuners for consoles, portable music players, portable consumer electronics tha created memories for all of us from the 80s to early 2000s. We will bringing mostly games consoles, titles from 3rd generation up to the 7th generation (almost retro). Also, since we are specialized in handhelds we offer some repairs or parts people may need to get their consoles up and running with original parts.",
+    "originalTable": "E02",
+    "sampleItems": ["Japanese Console", "Vintage Game", "Handheld Repair Part"]
+  },
+  {
+    "booth": "G",
+    "vendorName": "Avery Grade",
+    "description": "Take a step back in time and see how wild it was to be in the 60's and have color TV. Or even see the worlds first portable tape deck. Or maybe even the unreleased version of a TV scrambling service in the Chicago area",
+    "originalTable": "G18/G19/G20",
+    "sampleItems": ["Color TV", "Portable Tape Deck", "TV Scrambling Device"]
+  },
+  {
+    "booth": "S",
+    "vendorName": "AwesomeDolphin",
+    "description": "Come see Sierra's AGI games (well, at least one game), running on the Mega65. A brand new interpreter, especially for the Mega65! Also, QuantumLink Reloaded, and more exotic Commodore hardware.",
+    "originalTable": "S05",
+    "sampleItems": ["Mega65 Interpreter", "QuantumLink Reloaded", "Commodore Hardware"]
+  },
+  {
+    "booth": "G",
+    "vendorName": "Bea Thurman",
+    "description": "The Greengate DS:3 sampling keyboard for the Apple II returns to VCF midwest for round 2!",
+    "originalTable": "G21",
+    "sampleItems": ["Greengate DS:3", "Apple II Sampler"]
+  },
+  {
+    "booth": "D",
+    "vendorName": "Beehive Bit Bunker",
+    "description": "Come see a variety of terminals made by Beehive!",
+    "originalTable": "D03",
+    "sampleItems": ["Beehive Terminal"]
+  },
+  {
+    "booth": "K",
+    "vendorName": "Ben Armstrong",
+    "description": "Sales assorted computers, phones, and other related electronics",
+    "originalTable": "K05/K06",
+    "sampleItems": ["Assorted Computer", "Vintage Phone"]
+  },
+  {
+    "booth": "M",
+    "vendorName": "Ben Gennaria",
+    "description": "First models of laptops from well-known or interesting computer manufacturers including IBM, Apple, Atari, KayPro, and more",
+    "originalTable": "M01/M22",
+    "sampleItems": ["IBM Laptop", "Apple Laptop", "Atari Laptop"]
+  },
+  {
+    "booth": "L",
+    "vendorName": "BigBadBench",
+    "description": "Sometimes creativity is required to repair and/or upgrade our old systems. Check out some of my enameled wire creations for vintage Macintoshes and PCs.",
+    "originalTable": "L20",
+    "sampleItems": ["Enameled Wire Creation", "Vintage Mac Mod"]
+  },
+  {
+    "booth": "D",
+    "vendorName": "Bill Buzbee",
+    "description": "Magic-1 is a homebrew multi-tasking, multi-user minicomputer built from roughly 200 74-series TTL devices using wire-wrap construction. It runs the Minix operating system and has been in continuous operation for more than 20 years. Also appearing will be a newly designed, card-compatible Magic-1 clone built using PCBs.",
+    "originalTable": "D18",
+    "sampleItems": ["Magic-1 Minicomputer", "Minix OS"]
+  },
+  {
+    "booth": "J",
+    "vendorName": "Bill Staples",
+    "description": "Up for purchase are IBM 3545 docks, Heathkit Hero programmable robots, Ferrari and Lamborghini laptops, working pxl2000 cameras, PDA/Pocket pc's, luggables and more.",
+    "originalTable": "J15",
+    "sampleItems": ["IBM Dock", "Heathkit Robot", "Ferrari Laptop"]
+  },
+  {
+    "booth": "R",
+    "vendorName": "BitBinders",
+    "description": "Commodore 1581 replIca single and dual drives, power supplies, keyboards and other innovative accessories",
+    "originalTable": "R06/R07",
+    "sampleItems": ["1581 Replica Drive", "Power Supply", "Keyboard"]
+  },
+  {
+    "booth": "K",
+    "vendorName": "BitHistory.org",
+    "description": "I undetermined mix of various surplus items from the BitHistory.org collection. Likely systems, parts, books, and magnetic media.",
+    "originalTable": "K13/K14",
+    "sampleItems": ["Surplus System", "Vintage Part", "Book"]
+  },
+  {
+    "booth": "A",
+    "vendorName": "Black Bag",
+    "description": "Assorted PC/Mac/Other items for sale/trade including GRiDCASE laptop, SGI monitor, Sun Blade 100, SCSI enclosures, vintage Mac systems, motherboards, 16 bit cards, more.",
+    "originalTable": "A11/A12",
+    "sampleItems": ["GRiDCASE Laptop", "SGI Monitor", "Sun Blade 100"]
+  },
+  {
+    "booth": "I",
+    "vendorName": "BlueSCSI",
+    "description": "We'll be showing off all the new features of BlueSCSI v2. We will offer SCSI drive archival in person if you have an old drive you want to image for free. Demos of BlueSCSI's in some awesome retro machines as well.",
+    "originalTable": "I10",
+    "sampleItems": ["BlueSCSI v2", "SCSI Drive Archival"]
+  },
+  {
+    "booth": "A",
+    "vendorName": "Bonus Life Computers",
+    "description": "Vintage computer sales and service for Atari, Commodore, TRS-80, Apple, TI, Altair, IMSAI, Next and whatever else you can think of.",
+    "originalTable": "A15/A16/A17/A18/A19",
+    "sampleItems": ["Atari Service", "Commodore TRS-80", "Apple TI"]
+  },
+  {
+    "booth": "D",
+    "vendorName": "Brian Johnson and Joe Rork",
+    "description": "A display featuring early 80's z80 systems, including a NABU PC, Epson's QX-10 computer and an Ann Arbor Ambassador Terminal. As well as demonstrating a node on a packet radio network using vintage computing hardware and a hardware TNC radio module.",
+    "originalTable": "D04",
+    "sampleItems": ["Z80 System", "NABU PC", "Epson QX-10"]
+  },
+  {
+    "booth": "A",
+    "vendorName": "Brian L. Stuart",
+    "description": "The ENIAC was one of the earliest Turing-complete machines and was a major influence on all computers that came after. This exhibit features a detailed simulator of the ENIAC with multiple modes of visualization, including a first-person video game-like experience, a stereo 3d visualization, and the Tilt Five augmented reality system.",
+    "originalTable": "A13/A14",
+    "sampleItems": ["ENIAC Simulator", "3D Visualization"]
+  },
+  {
+    "booth": "B",
+    "vendorName": "Bryce Lanham",
+    "description": "Vintage tech for sale, trade, and display from the chicken cache.",
+    "originalTable": "B02",
+    "sampleItems": ["Vintage Tech Item"]
+  },
+  {
+    "booth": "P",
+    "vendorName": "Bryce Wilson",
+    "description": "Try out a powerful development tool almost a decade in the making.",
+    "originalTable": "P17",
+    "sampleItems": ["Vic-20 Development Tool"]
+  },
+  {
+    "booth": "G",
+    "vendorName": "Byteshift",
+    "description": "Demonstrating Amateur Packet Radio and selling various items, including my recreation of the RS232 interface for the TRS-80 Model I",
+    "originalTable": "G05",
+    "sampleItems": ["Packet Radio Demo", "RS232 Interface"]
+  },
+  {
+    "booth": "F",
+    "vendorName": "Carl Miles",
+    "description": "Exhibiting vintage Timex/Sinclair original and prototype computers along with modern redesigns and clones.",
+    "originalTable": "F05",
+    "sampleItems": ["Timex/Sinclair Computer", "Prototype Clone"]
+  },
+  {
+    "booth": "U",
+    "vendorName": "Chicago Gamespace",
+    "description": "Admire artwork from classic Sierra games, editioned prints by acclaimed Prince of Persia artist Jordan Mechner, and PC game fan art by Jim Ferguson along with other game-related art and books.",
+    "originalTable": "U06",
+    "sampleItems": ["Sierra Game Artwork", "Prince of Persia Print"]
+  },
+  {
+    "booth": "S",
+    "vendorName": "Chip Black",
+    "description": "Showing off the rare ACT Apricot as well as my own Amiga video and mouse solutions.",
+    "originalTable": "S17",
+    "sampleItems": ["ACT Apricot", "Amiga Video Solution"]
+  },
+  {
+    "booth": "T",
+    "vendorName": "Chris and Gavin Tersteeg",
+    "description": "Some early 6502 fun with the Altair 680 and SYM-1. A return of the Ferguson Big Board now joined by his Xerox 820 brother. And as usual lots of custom PCB projects, including new Apple II and Atari 8-bit FujiNet models.",
+    "originalTable": "T20/T21",
+    "sampleItems": ["Altair 680", "SYM-1", "Ferguson Big Board"]
+  },
+  {
+    "booth": "E",
+    "vendorName": "Chris Roth",
+    "description": "An exhibit of microcomputers used in the home and school in the early to mid 1980's UK, featuring the BBC Micro, ZX Spectrum, and potentially a few others!",
+    "originalTable": "E11/E12",
+    "sampleItems": ["BBC Micro", "ZX Spectrum"]
+  },
+  {
+    "booth": "S",
+    "vendorName": "CityXen",
+    "description": "Come see the Whackadoodle! Commodore 64 game with the newly added CHICKEN PUNCHER 8000 (MK2)!",
+    "originalTable": "S02",
+    "sampleItems": ["Whackadoodle Game", "CHICKEN PUNCHER 8000"]
+  },
+  {
+    "booth": "D",
+    "vendorName": "CLImagic",
+    "description": "Use a authentic Digital VT100 or VT420 terminal for curses menu or command line access",
+    "originalTable": "D16",
+    "sampleItems": ["VT100 Terminal", "VT420 Terminal"]
+  },
+  {
+    "booth": "N",
+    "vendorName": "Clint Thompson",
+    "description": "The Atari Hotz MIDI Controller Translator 'Live Experience' will be open for everyone interested in playing the world's fastest MIDI controller of the 80s invented by Jimmy Hotz. Come unleash your musical genius while exploring this ultra-rare piece of Atari's history in person!",
+    "originalTable": "N11",
+    "sampleItems": ["Atari Hotz MIDI Controller"]
+  },
+  {
+    "booth": "T",
+    "vendorName": "COCOMAN/Fairly Amused",
+    "description": "Tandy CoCo goodies  , Apple IIgs video cables, and other retro goodies!",
+    "originalTable": "T10",
+    "sampleItems": ["Tandy CoCo Goodies", "Apple IIgs Video Cable"]
+  },
+  {
+    "booth": "J",
+    "vendorName": "Russ Fierce",
+    "description": "Display and Sales or 1A2 Key Phones, IBM Monitors etc.",
+    "originalTable": "J13",
+    "sampleItems": ["1A2 Key Phone", "IBM Monitor"]
+  },
+  {
+    "booth": "N",
+    "vendorName": "Sam Mijal ",
+    "description": "Surplus equipment from my collection. Mostly PC and Mac stuff, with some odd and ends mixed in. Along with the possibility of one or two machines on display.",
+    "originalTable": "N01/N24",
+    "sampleItems": ["PC Surplus", "Mac Stuff"]
+  },
+  {
+    "booth": "I",
+    "vendorName": "Sapient Technologies",
+    "description": "Apple Lisa demonstrations on original systems together with modern Lisa upgrades for sale.",
+    "originalTable": "I07/I08/I09",
+    "sampleItems": ["Apple Lisa", "Lisa Upgrade"]
+  },
+  {
+    "booth": "Z",
+    "vendorName": "Scott Baret",
+    "description": "Out there, it's 2025. In here, it's always 1992.",
+    "originalTable": "Z10/Z11/Z12/Z13",
+    "sampleItems": ["1992 Mac Lab"]
+  },
+  {
+    "booth": "N",
+    "vendorName": "Scott K",
+    "description": "Two linked Sega tower of power setups (Genesis, 32X, Sega CD) running Doom CD32X Fusion.  Atari Mega STE, TT030, and Falcon 030 up and running for play.  Garage sale with random items for sale.",
+    "originalTable": "N06/N07",
+    "sampleItems": ["Sega Tower", "Atari Mega STE", "Doom CD32X"]
+  },
+  {
+    "booth": "I",
+    "vendorName": "SE Michigan Vintage Computer Club",
+    "description": "Vintage and retro computer club based in Southeast Michigan",
+    "originalTable": "I14",
+    "sampleItems": ["Vintage Computer Exhibit"]
+  },
+  {
+    "booth": "C",
+    "vendorName": "Sellam Ismail",
+    "description": "We'll be having a fine variety of vintage computery things.",
+    "originalTable": "C23",
+    "sampleItems": ["Vintage Computery Thing"]
+  },
+  {
+    "booth": "J",
+    "vendorName": "Shadytel Midwest & Friends",
+    "description": "Our exhibit not only provides the telephone infrastructure for the show, it is a demonstration of telephone equipment from all eras that were used in business and central office telephone systems.",
+    "originalTable": "J01/J02/J03/J04/J05",
+    "sampleItems": ["Telephone Equipment", "Central Office System"]
+  },
+  {
+    "booth": "B",
+    "vendorName": "Sierra Back On-Line & I Like Big Boxes and I Cannot Lie",
+    "description": "Sierra Back On-Line - A plethora of 8086 - Pentium machines running all the Sierra classics as well as displays for Sierra related magazines, literature, etc. Come by and play some of your favorite games. Stuff for sale, and game play prizes!I Like Big Boxes and I Cannot Lie - We're suckers for boxed vintage Computers, Peripherals, and Software. Take a trip down memory lane and possibly take it home with you. Primarily PC focused, but some 8bit systems items as well.",
+    "originalTable": "B09/B10/B11/B12",
+    "sampleItems": ["Sierra Classic Machine", "Boxed Vintage Computer", "Peripherals"]
+  },
+  {
+    "booth": "M",
+    "vendorName": "Silicon Graphics User Group / Irixnet",
+    "description": "Explore reality with the Onyx2 superworkstation: an Interactive display with a cyber world to explore. Also come see the strange x86 based Visual Workstations and Octane2 with Dials and Buttons!",
+    "originalTable": "M13/M14/M15/M16",
+    "sampleItems": ["Onyx2 Superworkstation", "Visual Workstation", "Octane2"]
+  },
+  {
+    "booth": "E",
+    "vendorName": "Skye Janis",
+    "description": "Displays and demos of various FM synthesis hardware and software ranging from the mid-80s through the 90s, focusing on FMs relationship with home computers, games, and popular music throughout its lifetime.",
+    "originalTable": "E09",
+    "sampleItems": ["FM Synthesis Hardware", "FM Software"]
+  },
+  {
+    "booth": "I",
+    "vendorName": "Sloopy X. Malibu",
+    "description": "Upgrade and repair 8bit computers of all makes",
+    "originalTable": "I13",
+    "sampleItems": ["8bit Upgrade", "Repair Service"]
+  },
+  {
+    "booth": "M",
+    "vendorName": "Solomon and Wes",
+    "description": "A small selection of microcomputer stuff for sale: early Macintosh, PowerMacs, some PC compatible gear, and various accessories.",
+    "originalTable": "M06",
+    "sampleItems": ["Early Macintosh", "PowerMac", "PC Gear"]
+  },
+  {
+    "booth": "K",
+    "vendorName": "SpecFive",
+    "description": "Spec5 products are rugged, off-grid communication devices that use LoRa mesh networking to enable decentralized, secure messaging without cellular or Wi-Fi. Built for reliability in remote environments, they integrate with platforms like Meshtastic and ATAK for real-time location sharing and team coordination.",
+    "originalTable": "K07",
+    "sampleItems": ["Off-grid Radio", "LoRa Device"]
+  },
+  {
+    "booth": "P",
+    "vendorName": "Stephen Anderson",
+    "description": "I'll have several Atari 8-bit machines running demos which show features of FujiNet and VBXE upgrades.",
+    "originalTable": "P06",
+    "sampleItems": ["Atari 8-bit Demo", "FujiNet Upgrade", "VBXE Upgrade"]
+  },
+  {
+    "booth": "I",
+    "vendorName": "Steve Hatle",
+    "description": "Macs, Suns, and a working SOL-20 (I hope!). Selling except for the SOL",
+    "originalTable": "I01/I02",
+    "sampleItems": ["Mac", "Sun", "SOL-20"]
+  },
+  {
+    "booth": "J",
+    "vendorName": "Steve K",
+    "description": "Before discord, slack, or even IRC, Diversi-Dial created online chat communties through a network of owner-owned Apple //e based servers.",
+    "originalTable": "J06",
+    "sampleItems": ["Diversi-Dial", "Apple //e Server"]
+  },
+  {
+    "booth": "T",
+    "vendorName": "Steve Krippner",
+    "description": "See the Tandy 1000 EX/HX 3-in-1 Adapter - get 1MB of memory, a XT-IDE interface, and a serial port on your Tandy 1000 EX or HX! Also, see the IBM PCjr to ATX Power Adapter - run your PCjr from an ATX power supply!",
+    "originalTable": "T11",
+    "sampleItems": ["Tandy 1000 Adapter", "IBM PCjr Adapter"]
+  },
+  {
+    "booth": "Z",
+    "vendorName": "STEVE MAHONEY",
+    "description": "Lots of software for several platforms",
+    "originalTable": "Z20/Z21",
+    "sampleItems": ["Amiga 4000", "Commodore 128D", "Software"]
+  },
+  {
+    "booth": "K",
+    "vendorName": "Steve Rundle",
+    "description": "Exhibiting a small selection of 90's era computers and video game consoles",
+    "originalTable": "K02",
+    "sampleItems": ["90's Computer", "Video Game Console"]
+  },
+  {
+    "booth": "F",
+    "vendorName": "Stewart Newfeld",
+    "description": "An extensive selection of Timex 1000 / Sinclair ZX81 computers, printers, kits, books, cassette software, video adaptors, keyboard upgrades, Arduino to Timex printer interfaces.",
+    "originalTable": "F08",
+    "sampleItems": ["Timex 1000", "Sinclair ZX81", "Cassette Software"]
+  },
+  {
+    "booth": "R",
+    "vendorName": "Style64",
+    "description": "We make demos, tools, and toys for your Commodore Business Machine",
+    "originalTable": "R13/R14/R15/R16",
+    "sampleItems": ["Commodore Demo", "Tool", "Toy"]
+  },
+  {
+    "booth": "N",
+    "vendorName": "Suburban Chicago Atarians (SCAT)",
+    "description": "SCAT has been suburban Chicago's Atari computer users group since 1981! Come see some great exhibits by our members, including an Atari Video Music and a Spectravideo CompuMate!",
+    "originalTable": "N16/N17",
+    "sampleItems": ["Atari Video Music", "Spectravideo CompuMate"]
+  },
+  {
+    "booth": "M",
+    "vendorName": "Superstar64",
+    "description": "I'll have a live demo of some of my favorite systems from the horde.",
+    "originalTable": "M08",
+    "sampleItems": ["Favorite System"]
+  },
+  {
+    "booth": "T",
+    "vendorName": "Tattler Solutions",
+    "description": "Modern WiFi replacements for vintage Hayes and US Robotics modems. We will also be showing our mini VT100 emulator.",
+    "originalTable": "T17",
+    "sampleItems": ["WiFi Modem", "VT100 Emulator"]
+  },
+  {
+    "booth": "Z",
+    "vendorName": "Tech Dungeon",
+    "description": "We make many custom products for retro systems such as joysticks, joystick adapters, and many other 3D designs of ours. Plus we sell retro computers and accessories",
+    "originalTable": "Z31/Z32/Z33/Z34",
+    "sampleItems": ["Joystick", "Adapter", "Retro Computer"]
+  },
+  {
+    "booth": "T",
+    "vendorName": "Ted Niespodziany",
+    "description": "GIMIX Ghost and Back To The Future build",
+    "originalTable": "T22/T23",
+    "sampleItems": ["GIMIX Ghost", "6809 Build"]
+  },
+  {
+    "booth": "L",
+    "vendorName": "The 8-Bit Guy",
+    "description": "The 8-Bit Guy will be there signing autographs, taking selfies, selling copies of Petscii Robots, and other merch.",
+    "originalTable": "L02",
+    "sampleItems": ["Petscii Robots", "Merch"]
+  },
+  {
+    "booth": "F",
+    "vendorName": "The E-Waste Mates",
+    "description": "We're a group of retro hardware enthusiasts with a passion for the local e-waste collection scene! Featuring demos of professional video production equipment, displays of various vintage computers, a CRT video wall, and also sales of CRTs and other equipment.",
+    "originalTable": "F01/F02/F19/F20/F21/F22",
+    "sampleItems": ["Video Production Equipment", "Vintage Computer", "CRT"]
+  },
+  {
+    "booth": "I",
+    "vendorName": "The Nostalgia Nexus",
+    "description": "One part museum collection, one part hobby store, the Nostalgia Nexus has something for everyone.",
+    "originalTable": "I19/I20/I21/I22",
+    "sampleItems": ["IBM/Clone", "Apple/Mac", "C64/Atari"]
+  },
+  {
+    "booth": "B",
+    "vendorName": "The Osborne Computer Group",
+    "description": "We have some super rare Osborne Computers from the Vixen to the Dutch School Kit Computer",
+    "originalTable": "B06/B07/B08",
+    "sampleItems": ["Osborne Vixen", "Dutch School Kit"]
+  },
+  {
+    "booth": "F",
+    "vendorName": "The Sprawl Technology Library",
+    "description": "The Sprawl Technology Library is a set of private libraries in Columbus, Ohio specializing in the preservation of the science fiction, fantasy, and older technology.",
+    "originalTable": "F14",
+    "sampleItems": ["Science Fiction Book", "Fantasy Item", "Older Technology"]
+  },
+  {
+    "booth": "L",
+    "vendorName": "The Stop Bits",
+    "description": "Four YouTubers making music about (and sometimes with) vintage computers. Featuring Veronica Explains, The Taylor and Amy Show, and Action Retro.",
+    "originalTable": "L07",
+    "sampleItems": ["Nerdy Music"]
+  },
+  {
+    "booth": "Z",
+    "vendorName": "Ti99 Home Computer",
+    "description": "TI99 Home Computer and software",
+    "originalTable": "Z16/Z17",
+    "sampleItems": ["TI99 Computer", "Software"]
+  },
+  {
+    "booth": "Z",
+    "vendorName": "Tim Williams",
+    "description": "Variety of 1990’s-era PC components from complete systems to video cards, sound cards, hard disks, CRT’s, keyboards and mice. Almost everything is tested and everything is guaranteed.",
+    "originalTable": "Z35/Z36",
+    "sampleItems": ["PC Component", "Video Card", "Sound Card"]
+  },
+  {
+    "booth": "J",
+    "vendorName": "Tom Major",
+    "description": "Exploring late 80's, 90's, and early 2000's Data Communications thru actual equipment demonstrations. Serial Data Comms using TDM Time Division Multiplexing.",
+    "originalTable": "J07",
+    "sampleItems": ["Serial Data Comms Demo"]
+  },
+  {
+    "booth": "E",
+    "vendorName": "UIUC Retrocomputing Club",
+    "description": "Students from UIUC who are interested in retrocomputing!",
+    "originalTable": "E16",
+    "sampleItems": ["Retrocomputing Exhibit"]
+  },
+  {
+    "booth": "H",
+    "vendorName": "VCF Midwest",
+    "description": "This is where we sell shirts and garage sale items and stickers too",
+    "originalTable": "H*",
+    "sampleItems": ["Shirt", "Garage Sale Item", "Sticker"]
+  },
+  {
+    "booth": "U",
+    "vendorName": "Vintage Computer Federation",
+    "description": "VCF will display retro reproductions to play, sell t-shirs and share information about our shows, forum, museum and other events.",
+    "originalTable": "U08/U09",
+    "sampleItems": ["Retro Reproduction", "T-Shirt"]
+  },
+  {
+    "booth": "T",
+    "vendorName": "Wade Meyer",
+    "description": "A mix of networking gear including switches, rack, cables, and rack accessories. We also have laptops and computer parts and gear.",
+    "originalTable": "T14/T15",
+    "sampleItems": ["Network Switch", "Rack", "Laptop"]
+  },
+  {
+    "booth": "E",
+    "vendorName": "Wafflenet",
+    "description": "The OPL Archive is a tribute to the Yamaha OPL series FM synthesis chips and their historic significance within the PC music scene via the AdLib and Sound Blaster cards. Come see demonstrations of OPL2/OPL3 music, explanations of how FM synthesis works, and new innovations like OPL3 on 68k Macintosh, made possible by accessing the unused chip on the Pro AudioSpectrum 16 NuBus card!",
+    "originalTable": "E06",
+    "sampleItems": ["OPL Chip", "AdLib Card", "Sound Blaster"]
+  },
+  {
+    "booth": "A",
+    "vendorName": "Walker Computer Solutions",
+    "description": "Selling Cutters and various support items for the show, and Computer Sales",
+    "originalTable": "A09/A10",
+    "sampleItems": ["Cutter", "Support Item", "Computer"]
+  },
+  {
+    "booth": "P",
+    "vendorName": "Whistler",
+    "description": "I'm setting up a functioning FTP server that I hope to use the local VCF internet to host fun files and games on",
+    "originalTable": "P07",
+    "sampleItems": ["Quad Pentium Pro Server", "RAID Array"]
+  },
+  {
+    "booth": "D",
+    "vendorName": "Wilkie Olin-Ammentorp",
+    "description": "Historical hardware and software from previous supercomputers deployed at Argonne National Laboratory",
+    "originalTable": "D02",
+    "sampleItems": ["Supercomputer Hardware", "Historical Software"]
+  },
+  {
+    "booth": "W",
+    "vendorName": "Will P",
+    "description": "Vintage PCs, networked together for some LAN gaming fun. Quake 3, Unreal Tournament, Starcraft, and more. Plenty of systems are already available for attendees, but feel free to bring your own PC and join in too!",
+    "originalTable": "W*",
+    "sampleItems": ["Vintage PC", "LAN Game"]
+  },
+  {
+    "booth": "D",
+    "vendorName": "William Donzelli",
+    "description": "Stuff. Things. Debris.",
+    "originalTable": "D01/D22",
+    "sampleItems": ["Stuff", "Things", "Debris"]
+  },
+  {
+    "booth": "N",
+    "vendorName": "Wisconsin Computer Club",
+    "description": "A showcase of exhibits by Wisconsin Computer Club members.",
+    "originalTable": "N02",
+    "sampleItems": ["Exhibit"]
+  },
+  {
+    "booth": "Z",
+    "vendorName": "Wumpus Hunters",
+    "description": "Ti99s and big box games",
+    "originalTable": "Z18/Z19",
+    "sampleItems": ["TI99", "Big Box Game"]
+  },
+  {
+    "booth": "U",
+    "vendorName": "Zap Coders",
+    "description": "Zap Coders’ new video game releasing this year for the gameboy color will be on display! Meet the lead creator and play the demo!",
+    "originalTable": "U02",
+    "sampleItems": ["Gameboy Color Game"]
+  },
+  {
+    "booth": "N",
+    "vendorName": "Zee Mehciz",
+    "description": "Just a bunch of stuff from my personal collection",
+    "originalTable": "N05",
+    "sampleItems": ["Collection Item"]
+  },
+  {
+    "booth": "L",
+    "vendorName": "zigzagjoe",
+    "description": "I make upgrades for vintage macintoshes and other systems! I plan to exhibit some of my more recent projects and offerings for sale.",
+    "originalTable": "L13",
+    "sampleItems": ["Vintage Mac Upgrade", "Project"]
+  }
+]

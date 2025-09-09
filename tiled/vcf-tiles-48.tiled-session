@@ -1,0 +1,99 @@
+{
+    "activeFile": "/home/joel/Documents/vcf/assets/vcf-32.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "/home/joel/Documents/vcf/assets/office-32.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/home/joel/Documents/vcf/assets/table_edge_32.tsx": {
+            "scaleInDock": 1
+        },
+        "/home/joel/Documents/vcf/assets/upper_table_corner_32.tsx": {
+            "scaleInDock": 1
+        },
+        "/home/joel/Documents/vcf/assets/vcf-32.tmx": {
+            "scale": 0.8854,
+            "selectedLayer": 25,
+            "viewCenter": {
+                "x": 766.3203072057827,
+                "y": 871.3575784955954
+            }
+        },
+        "/home/joel/Documents/vcf/assets/vcf_custom_tileset.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "Alex.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "modern office.tsx": {
+            "scaleInDock": 1
+        },
+        "office-32.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 3
+        },
+        "office.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 8
+        },
+        "table_edge_32.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "untitled.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 707.6666666666666,
+                "y": 1297.6666666666665
+            }
+        },
+        "upper_table_corner_32.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "vcf-32.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 717,
+                "y": 1569
+            }
+        },
+        "vcf.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 443,
+                "y": 480
+            }
+        },
+        "vcf.tmx#vcf": {
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "/home/joel/Documents/vcf/tiled",
+    "openFiles": [
+        "Alex.tsx",
+        "/home/joel/Documents/vcf/assets/vcf-32.tmx"
+    ],
+    "project": "vcf-tiles-48.tiled-project",
+    "recentFiles": [
+        "Alex.tsx",
+        "/home/joel/Documents/vcf/assets/vcf-32.tmx",
+        "/home/joel/Documents/vcf/assets/vcf_custom_tileset.tsx",
+        "office-32.tsx",
+        "table_edge_32.tsx",
+        "office.tsx",
+        "upper_table_corner_32.tsx",
+        "/home/joel/Documents/vcf/assets/office-32.tsx",
+        "vcf.tmx",
+        "vcf-32.tmx",
+        "untitled.tmx"
+    ]
+}
