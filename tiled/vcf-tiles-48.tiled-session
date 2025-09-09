@@ -1,5 +1,5 @@
 {
-    "activeFile": "",
+    "activeFile": "/home/user/Projects/VCF-Quest/assets/map.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -33,10 +33,10 @@
         },
         "/home/user/Projects/VCF-Quest/assets/map.tmx": {
             "scale": 0.42435661764705884,
-            "selectedLayer": 0,
+            "selectedLayer": 24,
             "viewCenter": {
                 "x": 721.0916179337231,
-                "y": 816.5302144249513
+                "y": 546.7099848386398
             }
         },
         "/home/user/Projects/VCF-Quest/assets/player.tsx": {
@@ -102,6 +102,7 @@
     "last.imagePath": "/home/user/Projects/VCF-Quest/assets",
     "map.lastUsedFormat": "tmx",
     "openFiles": [
+        "/home/user/Projects/VCF-Quest/assets/map.tmx"
     ],
     "project": "vcf-tiles-48.tiled-project",
     "recentFiles": [

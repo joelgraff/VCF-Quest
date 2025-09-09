@@ -25,10 +25,8 @@
       // Load Tiled map
       this.load.tilemapTiledJSON('map', 'assets/map.tmx');
 
-      // Load all three tileset images
-      this.load.image('vcf_tiles1', 'assets/tiles1.png'); // First tileset image
-      this.load.image('vcf_tiles2', 'assets/tiles2.png'); // Second tileset image
-      this.load.image('vcf_tiles_custom', 'assets/custom_tiles.png'); // Custom tileset image
+      // Load consolidated tileset image
+      this.load.image('vcf_custom_tileset', 'assets/vcf_custom_tileset.png');
 
       // Load player spritesheet
       this.load.spritesheet('player', 'assets/player.png', { frameWidth: 32, frameHeight: 32 });
@@ -37,21 +35,15 @@
     function create() {
       // Load and create the map
       map = this.make.tilemap({ key: 'map' });
-
-      // Add all tilesets to the map
-      const tileset1 = map.addTilesetImage('vcf_tiles1', 'vcf_tiles1'); // Match Tiled name
-      const tileset2 = map.addTilesetImage('vcf_tiles2', 'vcf_tiles2'); // Match Tiled name
-      const tilesetCustom = map.addTilesetImage('vcf_tiles_custom', 'vcf_tiles_custom'); // Match Tiled name
-
-      // Create the layer using all tilesets
-      const layer = map.createLayer('floor', [tileset1, tileset2, tilesetCustom], 0, 0); // Match layer name
+      const tileset = map.addTilesetImage('vcf_custom_tileset', 'vcf_custom_tileset'); // Match Tiled name
+      const layer = map.createLayer('floor', tileset, 0, 0); // Match layer name
       layer.setCollisionByExclusion([1]); // Adjust based on your tile IDs
 
       // Set camera bounds to map size
       this.cameras.main.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
 
       // Get player spawning rectangle from Tiled object layer
-      const playerRect = map.getObjectLayer('playerLayer')?.objects.find(obj => obj.type === 'player');
+      const playerRect = map.getObjectLayer('player')?.objects.find(obj => obj.type === 'player');
       if (playerRect) {
         // Calculate random position within the rectangle
         const minX = playerRect.x;
@@ -69,7 +61,7 @@
       }
       this.physics.add.collider(player, layer);
 
-      // Define player animations
+      // Define player animations (assuming 4 directions with 4 frames each)
       this.anims.create({
         key: 'walk_down',
         frames: this.anims.generateFrameNumbers('player', { start: 0, end: 3 }),

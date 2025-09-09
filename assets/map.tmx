@@ -56,9 +56,6 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <imagelayer id="2" name="Image Layer 1">
-  <image source="vcfmw20_floorplan_A_tilemap_1632.png"/>
- </imagelayer>
  <layer id="1" name="TableBases" width="45" height="51" locked="1">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
